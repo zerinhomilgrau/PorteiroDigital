@@ -1,0 +1,34 @@
+.categories-app {
+  background-color: #ffffff;
+  border-radius: 45px 45px 0px 0px;
+  box-shadow: 0px -10px 30px #00000008;
+  height: 76px;
+  overflow: hidden;
+  position: relative;
+  transform: rotate(0.06deg);
+  width: 390px;
+}
+
+.categories-app .settings-instance {
+  height: 39px !important;
+  left: 291px !important;
+  top: 23px !important;
+  transform: rotate(-0.06deg) !important;
+  width: 36px !important;
+}
+
+.categories-app .favorites-instance {
+  height: 39px !important;
+  left: 177px !important;
+  top: 23px !important;
+  transform: rotate(-0.06deg) !important;
+  width: 36px !important;
+}
+
+.categories-app .home-instance {
+  height: 39px !important;
+  left: 63px !important;
+  top: 23px !important;
+  transform: rotate(-0.06deg) !important;
+  width: 36px !important;
+}
