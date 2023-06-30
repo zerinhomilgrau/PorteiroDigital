@@ -1,0 +1,840 @@
+.login {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.login .div {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 844px;
+    overflow: hidden;
+    position: relative;
+    width: 390px;
+}
+
+.login .native-keyboard {
+    height: 283px;
+    left: 0;
+    position: absolute;
+    top: 561px;
+    width: 389px;
+}
+
+.login .overlap {
+    height: 283px;
+    position: relative;
+}
+
+.login .background {
+    -webkit-backdrop-filter: blur(81.55px) brightness(100%);
+    backdrop-filter: blur(81.55px) brightness(100%);
+    background-color: #e3e4e5;
+    height: 283px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 389px;
+}
+
+.login .native-home {
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 260px;
+    width: 388px;
+}
+
+.login .keys {
+    height: 259px;
+    left: 10px;
+    position: absolute;
+    top: 8px;
+    width: 369px;
+}
+
+.login .dictation {
+    height: 25px;
+    left: 327px;
+    position: absolute;
+    top: 233px;
+    width: 15px;
+}
+
+.login .emoji {
+    height: 27px;
+    left: 22px;
+    position: absolute;
+    top: 232px;
+    width: 27px;
+}
+
+.login .return {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/8fda09dd27c1051e17d1c3c6f6e140d7/img/rectangle-3.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 42px;
+    left: 281px;
+    position: absolute;
+    top: 162px;
+    width: 88px;
+}
+
+.login .label {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    width: 88px;
+}
+
+.login .space {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/8fda09dd27c1051e17d1c3c6f6e140d7/img/rectangle-2.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 42px;
+    left: 93px;
+    position: absolute;
+    top: 182px;
+}
+
+.login .text-wrapper {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    width: 182px;
+}
+
+.login .element {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/8fda09dd27c1051e17d1c3c6f6e140d7/img/rectangle-1.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 162px;
+    width: 87px;
+}
+
+.login .label-2 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    width: 42px;
+}
+
+.login .delete {
+    height: 42px;
+    left: 327px;
+    position: absolute;
+    top: 108px;
+    width: 42px;
+}
+
+.login .overlap-group {
+    height: 42px;
+    position: relative;
+}
+
+.login .key-light {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/8fda09dd27c1051e17d1c3c6f6e140d7/img/rectangle.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 42px;
+}
+
+.login .label-3 {
+    color: #090a0a;
+    font-family: "SF Pro Text-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.32px;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    width: 42px;
+}
+
+.login .delete-button {
+    height: 17px;
+    left: 10px;
+    position: absolute;
+    top: 13px;
+    width: 23px;
+}
+
+.login .shift{
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 108px;
+    width: 42px;
+}
+
+.login .overlap-2 {
+    border-radius: 4.6px;
+    height: 42px;
+    position: relative;
+  }
+  
+  .login .symbol-wrapper {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 42px;
+  }
+  
+  .login .symbol {
+    color: #090a0a;
+    font-family: "SF Pro Text-Regular", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .img {
+    height: 16px;
+    left: 12px;
+    position: absolute;
+    top: 12px;
+    width: 19px;
+  }
+  
+  .login .m {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 282px;
+    position: absolute;
+    top: 108px;
+    width: 32px;
+  }
+  
+  .login .symbol-2 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .n {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 244px;
+    position: absolute;
+    top: 108px;
+    width: 32px;
+  }
+  
+  .login .symbol-3 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 8px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .b {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 206px;
+    position: absolute;
+    top: 108px;
+    width: 32px;
+  }
+  
+  .login .symbol-4 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 9px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .v {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 169px;
+    position: absolute;
+    top: 108px;
+    width: 32px;
+  }
+  
+  .login .c {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 131px;
+    position: absolute;
+    top: 108px;
+    width: 32px;
+  }
+  
+  .login .x {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 94px;
+    position: absolute;
+    top: 108px;
+    width: 32px;
+  }
+  
+  .login .z {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 56px;
+    position: absolute;
+    top: 108px;
+    width: 32px;
+  }
+  
+  .login .l {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 319px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .symbol-5 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .k {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 281px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .j {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 244px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .h {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 206px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .g {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 169px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .f {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 131px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .d {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 94px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .s {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 56px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .a {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 19px;
+    position: absolute;
+    top: 54px;
+    width: 32px;
+  }
+  
+  .login .p {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 337px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .o {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 300px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .symbol-6 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .i {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 262px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .symbol-7 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .u {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 225px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .y {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 187px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .t {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 150px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .r {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 112px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .e {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 75px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .w {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 37px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .symbol-8 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 22.5px;
+    font-weight: 400;
+    left: 5px;
+    letter-spacing: -0.55px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .login .q {
+    background-color: #ffffff;
+    border-radius: 4.6px;
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .login .log-in-button {
+    background-color: #00c1ffd9;
+    border-radius: 48px;
+    height: 48px;
+    left: 24px;
+    position: absolute;
+    top: 496px;
+    transition: all 0.23s ease;
+    width: 342px;
+  }
+  
+  .login .text {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+    height: 16px;
+    left: 141px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    white-space: nowrap;
+  }
+  
+  .login .by-continuing-you {
+    color: transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 32px;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 446px;
+    width: 342px;
+  }
+  
+  .login .span {
+    color: #090a0a;
+  }
+  
+  .login .text-wrapper-2 {
+    color: #00c2ff;
+  }
+  
+  .login .emai-password {
+    height: 209px;
+    left: 0;
+    position: absolute;
+    top: 138px;
+    width: 389px;
+  }
+  
+  .login .text-wrapper-3 {
+    color: #00c2ff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 153px;
+    white-space: nowrap;
+    width: 336px;
+  }
+  
+  .login .password {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #e3e4e5;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #00000026;
+    height: 60px;
+    left: 24px;
+    position: absolute;
+    top: 83px;
+    width: 342px;
+  }
+  
+  .login .partials-text-field {
+    height: 16px;
+    left: 16px;
+    position: relative;
+    top: 19px;
+    width: 304px;
+  }
+  
+  .login .input {
+    background-color: transparent;
+    border: 0;
+    color: #72777a;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    padding: 0;
+    position: relative;
+    top: -1px;
+    white-space: nowrap;
+    width: 304px;
+  }
+  
+  .login .email {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #e3e4e5;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #00000026;
+    height: 70px;
+    left: 24px;
+    position: absolute;
+    top: -3px;
+    width: 342px;
+  }
+  
+  .login .partials-text-field-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 16px;
+    position: relative;
+    top: 16px;
+    width: 197px;
+  }
+  
+  .login .text-wrapper-4 {
+    align-self: stretch;
+    color: #72777a;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 12px;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .login .text-2 {
+    align-self: stretch;
+    background-color: transparent;
+    border: 0;
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    min-width: 197px;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .login .div-wrapper {
+    background-color: #ffffff;
+    height: 48px;
+    left: -1px;
+    position: absolute;
+    top: 60px;
+    width: 390px;
+  }
+  
+  .login .text-wrapper-5 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 18px;
+    left: 166px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+  }
+  
+  .login .native-status-bar {
+    background-color: #31cdff99;
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 390px;
+  }
+  
+  .login .text-wrapper-6 {
+    color: #090a0a;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 16px;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+  }
+  
+  .login .mobile-signal {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/8fda09dd27c1051e17d1c3c6f6e140d7/img/mobile-signal.svg);
+    background-size: 100% 100%;
+    height: 10px;
+    left: 303px;
+    position: absolute;
+    top: 24px;
+    width: 18px;
+  }
+  
+  .login .wifi {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/8fda09dd27c1051e17d1c3c6f6e140d7/img/union.svg);
+    background-size: 100% 100%;
+    height: 11px;
+    left: 326px;
+    position: absolute;
+    top: 23px;
+    width: 15px;
+  }
+  
+  .login .battery {
+    height: 13px;
+    left: 347px;
+    position: absolute;
+    top: 22px;
+    width: 27px;
+  }
